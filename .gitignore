@@ -45,3 +45,6 @@ typings
 # Transpiled files
 dist
 build
+
+# Environment files
+.env
