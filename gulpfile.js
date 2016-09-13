@@ -30,7 +30,7 @@ gulp.task('dist', ['transpile:dist']);
 gulp.task('dev', ['transpile:dev']);
 
 gulp.task('watch', () => {
-  return gulp.watch('src/**/*.js', ['transpile:dist']);
+  return gulp.watch('src/**/*.js', ['transpile:dev']);
 });
 
 gulp.task('default', [
